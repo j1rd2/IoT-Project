@@ -1,0 +1,131 @@
+h1 {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Cambia la fuente a 'Helvetica Neue', Arial o cualquier otra fuente sans-serif */
+    color:blanchedalmond; /* Cambia el color a blanco */
+    font-size: 50px; /* Aumenta el tamaño de la fuente a 24 píxeles */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.espacio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+html, body {
+    height: 100%;
+  }
+  
+  .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px;
+  }
+  
+  .button {
+    width: 200px; /* Aumentar el ancho del botón */
+    height: 60px; /* Aumentar la altura del botón */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px; /* Aumentar el tamaño de la fuente */
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-right: 10px; /* Espacio entre botones */
+  }
+  
+  .button:last-child {
+    margin-right: 0; /* Eliminar margen derecho del último botón */
+  }
+  
+  .button:hover {
+    background-color:rgb(33, 33, 186);
+    box-shadow: 0px 15px 20px rgba(46, 61, 229, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    background: #232323
+}
+
+a {
+    position: absolute;
+    top: 3%;
+    left: 2.5%;
+    transform: translate(0, 0);
+    width: 180px;
+    height: 50px;
+    background: #232323;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    color:blanchedalmond;
+    font-size: 20px;
+    font-family: verdana;
+    letter-spacing: 4px;
+}
+
+a:before,
+a:after,
+span:before,
+span:after
+{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background:blue;
+    transition: 1s;
+    mix-blend-mode: hue;
+}
+
+a:before
+{
+    top: -2px;
+    left: -2px
+}
+a:after
+{
+    top: -2px;
+    right: -2px;
+}
+span:before
+{
+    bottom: -2px;
+    left: -2px
+}
+span:after
+{
+    bottom: -2px;
+    right: -2px
+}
+
+a:hover:before,
+a:hover:after,
+a:hover span:before,
+a:hover span:after
+{
+    width: calc( 180px/2 );
+    height: calc( 50px/2 )
+}
+
+.escritura {
+    font-family: 'Roboto', sans-serif;
+    color:blanchedalmond; /* Cambia el color a blanco */
+    font-size: 18px; /* Aumenta el tamaño de la fuente a 24 píxeles */
+    text-align:center; /* Centra el texto horizontalmente */
+}

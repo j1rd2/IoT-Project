@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Internet de las Cosas</title>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <br>
+        <br>
+        <br>
+        <div class="logoTec">
+            <img src="LOGO TEC.png" height="210" width="800">
+        </div>
+        <div class="espacio"></div>
+        <h1> Instituto Tecnológico y de Estudios Superiores de Monterrey </h1>
+        <div class="espacio"></div>
+        <h2> Reto </h2>
+        <div class="espacio"></div>
+        <div class="div1">
+            <p class="nombres"> 
+                Arturo Sanchez Rodriguez
+                <br>
+                <br>
+                Jesus Ramirez Delgado
+                <br>
+                <br>
+                Eliuth Balderas Neri
+            </p>
+        </div>
+        <div class="espacio"></div>
+        <h3> Proyecto Final </h3>
+    </header>
+    <main>
+        <h4>Descripción del Proyecto</h4>
+        <article class="articleStyle">
+            <p>Mediante una placa de Arduino ESP32 se conectaron varios modulos para poder realizar diferentes medidas.</p>
+            <p>Se conectaron 4 potenciometros (por falta de material).</p>
+            <p>Una vez en funcionamiento, se conecto a una base de datos, en este caso se implementó Firebase, y se conecto a el IDE</p>
+            <p>de Arduino. Finalmente se programo esta App Web sencilla, que obtiene los datos de Firebase y tu puedes consultar en</p>
+            <p>tiempo real los datos de cada módulo conectado a la placa ESP32.</p>
+            <!-- Más contenido de texto -->
+        </article>
+        <div class="espacio"></div>
+        <div class="wrap">
+            <button class="button" onclick="window.location.href='botones.html'">Probar</button>
+        </div>
+    </main>
+    <footer>
+        <p> Gracias </p>
+    </footer>
+</body>
+</html>
